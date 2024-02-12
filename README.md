@@ -2,8 +2,7 @@
 I completed this assignment for my Cloud Computing Course at the University of Cincinnati. See below for the assignment instructions.
 
 ## Requirements
-Do the following (Python is mentioned but you can use any language of your choice to
-complete the task):
+Do the following:
 1. Start a docker container from any image of your choice.
 2. Install python so that the code written in python can be executed.
 3. Write a python script to read 2 text files (IF.txt & Limerick-1.txt) from location:
