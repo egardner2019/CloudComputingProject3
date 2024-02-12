@@ -21,3 +21,26 @@ your container).
 the information on console from result.txt file and exit.
 5. Make your container image as small as possible.
 6. Submit your image for evaluation.
+
+## Running a Container
+To build the image, I ran `docker build -t project3 .` from within this project directory. Then, to start a container from the image, I ran `docker run -v [path-on-my-computer]:/home/data project3`, where `[path-on-my-computer]` was replaced with the path to the directory containing the text files on my computer.
+
+## Results
+When I ran the container, I received the following output. It is added to home/output/result.txt within the container and is also printed to the console.
+```
+All text file names:
+IF.txt
+Limerick-1.txt
+something.txt
+
+Total words in IF.txt: 292
+Total words in Limerick-1.txt: 32
+Grand total: 324
+
+Top 3 words in IF.txt:
+'and' appears 19 times.
+'you' appears 18 times.
+'if' appears 14 times.
+
+IP address of your machine: 172.17.0.2
+```
